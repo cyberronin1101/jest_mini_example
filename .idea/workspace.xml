@@ -7,7 +7,6 @@
     <list default="true" id="522c743c-24d4-409c-a88f-c76fca477818" name="Changes" comment="async and mock">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/03_async/async.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_async/async.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/03_async/async.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_async/async.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +121,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667306443820</updated>
-      <workItem from="1667306446151" duration="20341000" />
+      <workItem from="1667306446151" duration="21198000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1667310235710</created>
@@ -166,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667327024196</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="async and mock">
+      <created>1667329462181</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667329462181</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

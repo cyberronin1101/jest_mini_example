@@ -1,6 +1,6 @@
 import { Ajax } from "./async";
 import axios from "axios";
-// import Mock = jest.Mock;
+import Mock = jest.Mock;
 
 jest.mock("axios");
 
@@ -54,11 +54,7 @@ describe("Ajax: GET", () => {
   test("Should return data from backend", () => {
     // axiosGet.mockReturnValue(response);
 
-    mockedAxios.get.mockReturnValue(
-      new Promise((res) => {
-        res(response);
-      })
-    );
+    (mockedAxios.get as Mock).mockReturnValue(response);
 
     return Ajax.get().then((data) => {
       expect(data.todos).toEqual(todos);
