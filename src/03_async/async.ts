@@ -1,3 +1,5 @@
+import axios from "axios";
+
 export class Ajax {
   static echo(data?: string) {
     return new Promise((res, rej) => {
@@ -9,5 +11,17 @@ export class Ajax {
         }
       }, 300);
     });
+  }
+
+  static async get() {
+    try {
+      const { data } = await axios.get(
+        "https://jsonplaceholder.typicode.com/todos/1"
+      );
+
+      return data;
+    } catch (e) {
+      console.log(e);
+    }
   }
 }

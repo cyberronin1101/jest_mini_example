@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="522c743c-24d4-409c-a88f-c76fca477818" name="Changes" comment="add async">
-      <change afterPath="$PROJECT_DIR$/src/04_mock/mock.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/04_mock/mock.ts" afterDir="false" />
+    <list default="true" id="522c743c-24d4-409c-a88f-c76fca477818" name="Changes" comment="async and mock">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03_async/async.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_async/async.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03_async/async.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_async/async.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667306443820</updated>
-      <workItem from="1667306446151" duration="17833000" />
+      <workItem from="1667306446151" duration="20341000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1667310235710</created>
@@ -152,7 +152,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667322250376</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add mock">
+      <created>1667326977518</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667326977518</updated>
+    </task>
+    <task id="LOCAL-00006" summary="npm i axios">
+      <created>1667327024196</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667327024196</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +188,9 @@
     <MESSAGE value="add intro" />
     <MESSAGE value="add sync" />
     <MESSAGE value="add async" />
-    <option name="LAST_COMMIT_MESSAGE" value="add async" />
+    <MESSAGE value="add mock" />
+    <MESSAGE value="npm i axios" />
+    <MESSAGE value="async and mock" />
+    <option name="LAST_COMMIT_MESSAGE" value="async and mock" />
   </component>
 </project>
